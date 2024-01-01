@@ -46,24 +46,35 @@ body{
     height: 683px;
 }
 
-/* .banner-welcome-tex h1{
-    background-color: #fff;
-    Width: 359px;
-    Height: 83px;
-    margin-top: 236px;
-    margin-left: 112px;
-} */
-
-
+.banner{
+    padding: 50px 0 0 50px;
+}
 .banner h1{
     background-color: #fff;
     Width: 359px;
     Height: 83px;
-    margin-top: 20px;
 }
 .banner p{
     background-color: #fff;
     Width: 359px;
     Height: 83px;
     margin-top: 20px;
+}
+
+.relationships-area{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+/* media screen */
+@media screen and (max-width: 668px) {
+    .relationships-area{
+        display: block;
+    }
 }
